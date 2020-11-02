@@ -1,0 +1,309 @@
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+/* body { font-size:62.5%; } */
+/*
+100% = 1em = 1rem = 16px = 12pt */
+body {
+    font-family: Verdana, "ヒラギノ角ゴ ProN W6", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box; }
+
+  ul, ol {
+    list-style: none;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  img {
+    vertical-align: bottom;
+  }
+  a img {
+    border: none;
+  }
+  strong {
+    font-weight: normal;
+  }
+  i{
+    font-style: normal;
+  }
+
+
+  .nav{
+      width: 100%;
+      position: fixed;
+      background: #2E9FFE;
+
+  }
+
+  .nav-inner{
+    margin: 0 auto;
+    max-width:110rem;
+    width:100%;
+    height:85px;
+    box-sizing: border-box;
+    padding:1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-inner .nav-items{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 2rem;
+    padding-right:0;
+}
+
+.nav-titile-logo{
+    font-size: 3rem;
+}
+
+.nav-logo__white{
+color: #FFF;
+}
+
+.nav-item__white{
+    color: #FFF;
+}
+.nav-item{
+padding-left:1.7rem;
+font-size: 1.5rem;
+}
+
+
+
+
+.header{
+    width:100%;
+    height:95vh;
+    /* background-image:  linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgb(46, 159, 254,0.8)), url(header.png); */
+    /* background-size: cover;
+    background-position: top; */
+    background:#81BEF0;
+}
+
+.header2{
+    width:100%;
+    height:95vh;
+    /* background-image:  linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgb(46, 159, 254,0.8)), url(header.png); */
+    /* background-size: cover;
+    background-position: top; */
+    background:orange;
+}
+.container{
+    margin:0 auto;
+    max-width: 110rem;
+}
+
+.header-box{
+    padding-left:15px;
+    width:75vh;
+    padding-top:28rem ;
+}
+
+.header_text_h1{
+    font-size: 5rem;
+}
+
+.headr-text_color{
+    color:#fff;
+    font-weight: 900;
+}
+
+.header-text{
+    padding-bottom:20px;
+}
+
+.btn,.header-info{
+ display: inline-block;
+}
+
+.btn{
+    width:200px;
+    height: 50px;
+    border-radius: 3rem;
+    background: #fff;
+    line-height: 50px;
+    text-align: center;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn-text{
+    font-size:1.6rem;
+    color:#5E6870;
+}
+
+.info-text{
+    font-size:1.6rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.header-info{
+    padding-left:3rem;
+}
+
+.information{
+    height: 95vh;
+    background: #132131;
+}
+
+
+
+
+#container {
+    margin: 0 auto;
+    max-width:1100px;
+    display: grid;
+    grid-template-rows: 300px 200px;
+    grid-template-columns: 300px 1fr;
+    margin-bottom:20px;
+}
+
+#itemA {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    background: #f88;
+}
+
+
+#itemB {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    background: #8f8;
+}
+#itemC {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background: #88f;
+}
+
+
+
+#container2 {
+    margin: 0 auto;
+    max-width:1100px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+}
+
+.magin{
+    margin: 0 auto;
+    max-width:1100px;
+    margin-bottom:20px;
+
+}
+
+#item1{
+    height: 15rem;
+    background: #f88;
+}
+
+#item2 {
+    height: 15rem;
+    background: #8f8;
+}
+#item3 {
+    height: 15rem;
+    background: #88f;
+}
+#item4 {
+    height: 15rem;
+    grid-row: span 2;
+    background: rgb(136, 255, 152);
+}
+
+#item5 {
+    height: 15rem;
+    background: rgb(136, 158, 255);
+}
+#item6 {
+    height: 15rem;
+    background: rgb(255, 136, 215);
+}
+
+
+#container3 {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#item7 {
+    height: 15rem;
+    background: rgb(136, 158, 255);
+}
+#item8 {
+    height: 15rem;
+    background: rgb(255, 136, 215);
+}
+
+.img-size{
+    width:100%;
+}
+
+
+
+
+
+
+#container4 {
+    display: grid;
+    grid-template-rows: 10vw 10vw 10vw 10vw;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-auto-flow: dense;
+}
+#item10 {
+    grid-row: span 2; grid-column: span 2;
+}
+#item12 {
+    grid-row: span 2; grid-column: span 2;
+}
+
+.color1{
+    background: #f88;
+}
+
+.color2{
+    background: #8f8;
+}
+
+.color3{
+    background: #88f;
+}
+
+.color4{
+    background: rgb(136, 255, 152);
+}
+
+.color5{
+    background: rgb(136, 158, 255);
+}
+s
+.color6{
+    background: rgb(136, 158, 255);
+}
+

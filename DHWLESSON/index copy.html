@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+    function onPageLoad() {
+      var cols = document.querySelectorAll('#MyList li');
+      for (i = 0; i < cols.length; i++) {
+        cols[i].addEventListener('click', ListItemClick, false);
+      }
+    }
+
+    function ListItemClick(event) {
+      this.classList.toggle('selected');
+    }
+  </script>
+</head>
+<body onload="onPageLoad();">
+  <ul id="MyList">
+    <li>ぺんぎんクッキー</li>
+    <li>しろくまアイス</li>
+    <li>らくだキャラメル</li>
+    <li>ふくろうサブレ</li>
+    <li>あひるケーキ</li>
+  </ul>
+</body>
+</html>
